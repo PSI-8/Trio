@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trio | Homepage</title>
+    <link rel="shortcut icon" href="images/1994053.webp" type="image/x-icon">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="https://kit.fontawesome.com/c25cabee86.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="footer.css">
+</head>
+<style>
+  body{
+    font-family: 'arial';
+  }
+  .offcanvas{ 
+    background-color: wheat;
+  }
+</style>
+<body>
+  <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
+    <div class="offcanvas-header">
+      <h3 class="offcanvas-title" id="offcanvasExampleLabel">Sports</h3>
+      <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+    </div>
+    <div class="offcanvas-body">
+      <ul class="navbar-nav">
+          <li class="nav-item mt-2"><a class="dropdown-item fs-5" href="football.html">Football</a></li>
+          <li class="nav-item mt-2"><a class="dropdown-item fs-5" href="basketball.html">Basketball</a></li>
+          <li class="nav-item mt-2"><a class="dropdown-item fs-5" href="swim.html">Swimming</a></li>
+          <li class="nav-item mt-2"><a class="dropdown-item fs-5" href="volley.html">Volleyball</a></li>
+          <li class="nav-item mt-2"><a class="dropdown-item fs-5" href="tennis.html">Tennis</a></li>
+      </ul>
+    </div>
+  </div>
+  <nav class="navbar navbar-expand-lg text-uppercase sticky-top bg-light" id="mainNav">
+    <div class="container fw-bold ">
+        <a class="navbar-brand" style="color: rgb(43, 148, 204);" href="index.html">Trio</a>
+        <button class="navbar-toggler text-uppercase text-black rounded" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="fas fa-bars fs-1"></i>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item mx-0 mx-lg-1"><a class="nav-link p-3 px-lg-3 rounded text-black" href="index.html">HOME</a></li>
+                <li class="nav-item mx-0 mx-lg-1">
+                  <a class="nav-link text-black ms-3 mt-2" data-bs-toggle="offcanvas" href="#offcanvasExample" aria-controls="offcanvasExample">
+                    Sports
+                  </a>
+                </li>
+                <li class="nav-item mx-0 mx-lg-1"><a class="nav-link p-3 px-lg-3 text-black" href="contact.html">Contact</a></li>
+                <li class="nav-item mx-0 mx-lg-1"><a class="nav-link p-3 px-lg-3 text-black" href="about.html">About</a></li>
+            </ul>
+            <form class="ms-auto">
+                <div class="input-group">
+                  <span class="input-group-text"><i class="fa-solid fa-magnifying-glass"></i></span>
+                  <input type="text" class="form-control me-2" placeholder="Search">
+                  <a href="login.html"><button class="btn btn-primary rounded-pill me-2" type="button">Log in</button></a>
+                <a href="up.html"><button class="btn btn-danger rounded-pill" type="button">Sign Up</button></a>
+                </div>
+            </form>
+        </div>
+    </div>
+</nav>
+<div class="container-fluid" style="background: url(images/mem.gif); background-size: cover; height: 500px;">
+  <div class="row">
+     <div class="col-md-3"></div>
+     <div class="col-md-6 mt-5 text-center bg-light bg-opacity-50 shadow-lg bg-body-tertiary rounded-2 p-3">
+      <h1 class="" style="font-size: 70px;">Membership</h1>
+      </div>
+     <div class="col-md-3"></div>
+  </div>
+</div><br><br>
+<h3 class="text-center">We offer three types of Memberships. Subscription membership enjoys unlimited access to the club.</h3><br>
+<div class="pricing-header p-3 pb-md-4 mx-auto text-center">
+  <h1 class="display-4 fw-normal text-body-emphasis">Packages Plans</h1>
+</div>
+</header>
+
+<div class="container">
+  <div class="row row-cols-1 row-cols-md-3 mb-3 text-center">
+    <div class="col">
+      <div class="card mb-4 rounded-3 shadow-sm">
+        <div class="card-header py-3 bg-secondary">
+          <h4 class="my-0 fw-normal text-white">Silver Subscription</h4>
+        </div>
+        <div class="card-body">
+          <h1 class="card-title pricing-card-title">100,000 MMK<small class="text-body-secondary fw-light">/mo</small></h1>
+          <ul class="list-unstyled mt-3 mb-4">
+            <li>5 users included</li>
+            <li>Unlimited entry</li>
+            <li>10% Disscount on shop</li>
+            <li>Help center access</li>
+          </ul>
+          <button type="button" class="w-100 btn btn-lg btn-outline-secondary">Subscribe</button>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card mb-4 rounded-3 ">
+        <div class="card-header py-3 bg-warning">
+          <h4 class="my-0 fw-normal">Gold Subscription</h4>
+        </div>
+        <div class="card-body">
+          <h1 class="card-title pricing-card-title">200,000 MMK<small class="text-body-secondary fw-light">/mo</small></h1>
+          <ul class="list-unstyled mt-3 mb-4">
+            <li>7 users included</li>
+            <li>Unlimited entry</li>
+            <li>10% Disscount on shop</li>
+            <li>Free Drinks</li>
+            <li>Help center access</li>
+          </ul>
+          <button type="button" class="w-100 btn btn-lg btn-outline-warning">Subscribe</button>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card mb-4 rounded-3 shadow-sm">
+        <div class="card-header py-3 bg-light">
+          <h4 class="my-0 fw-normal">Platinum Subscription</h4>
+        </div>
+        <div class="card-body">
+          <h1 class="card-title pricing-card-title">300,000 MMK<small class="text-body-secondary fw-light">/mo</small></h1>
+          <ul class="list-unstyled mt-3 mb-4">
+            <li>10 users included</li>
+            <li>Unlimited entry</li>
+            <li>5% Disscount on shop</li>
+            <li>Free Drinks and Snacks</li>
+            <li>Free Training Class with Experts</li>
+            <li>Help center access</li>
+          </ul>
+          <button type="button" class="w-100 btn btn-lg btn-outline-info">Subscribe</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <h2 class="display-6 text-center mb-4">Compare plans</h2>
+
+<div class="table-responsive">
+  <table class="table text-center">
+    <thead class="border-bottom border-warning">
+      <tr>
+        <th style="width: 34%;" class="fs-5">Privilleges</th>
+        <th style="width: 22%;">Silver</th>
+        <th style="width: 22%;">Gold</th>
+        <th style="width: 22%;">Platinum</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <th scope="row" class="">Users included</th>
+        <td>5</td>
+        <td>7</td>
+        <td>10</td>
+      </tr>
+      <tr>
+        <th scope="row" class="">Unlimited entry</th>
+        <td><i class="fa-solid fa-check"></i></td>
+        <td><i class="fa-solid fa-check"></i></td>
+        <td><i class="fa-solid fa-check"></i></td>
+      </tr>
+    </tbody>
+
+    <tbody>
+      <tr>
+        <th scope="row" class="">Disscount on shop</th>
+        <td>10%</td>
+        <td>10%</td>
+        <td>5%</td>
+      </tr>
+      <tr>
+        <th scope="row" class="">Free Drinks</th>
+        <td>-</td>
+        <td><i class="fa-solid fa-check"></i></td>
+        <td><i class="fa-solid fa-check"></i></td>
+      </tr>
+      <tr>
+        <th scope="row" class="">Free Snacks</th>
+        <td>-</td>
+        <td>-</td>
+        <td><i class="fa-solid fa-check"></i></td>
+      </tr>
+      <tr>
+        <th scope="row" class="">Training Class with Experts</th>
+        <td>-</td>
+        <td>-</td>
+        <td><i class="fa-solid fa-check"></i></td>
+      </tr>
+      <tr>
+        <th scope="row" class="">Help center access</th>
+        <td><i class="fa-solid fa-check"></i></td>
+        <td><i class="fa-solid fa-check"></i></td>
+        <td><i class="fa-solid fa-check"></i></td>
+      </tr>
+    </tbody>
+  </table>
+  <br>
+  <h5 class="fw-bold text-danger">Important Notice : <span class="fs-6"> Membership rate, discount and promotion may change at any time</span></h5>
+</div>
+</div>
+<br><br>
+<div class="container-fluid bg-light">
+    <footer class="py-5 container">
+      <div class="row">
+        <div class="col-12 col-md-2 mb-3">
+          <img src="images/1994053.webp" alt="" width="50%" class="text-center">
+        </div>
+        <div class="col-6 col-md-2 mb-3">
+          <h5>Sport</h5>
+          <ul class="nav flex-column">
+            <li class="nav-item mb-2"><a href="football.html" class="nav-link p-0 text-body-secondary">Football</a></li>
+            <li class="nav-item mb-2"><a href="basketball.html" class="nav-link p-0 text-body-secondary">Basketball</a></li>
+            <li class="nav-item mb-2"><a href="tennis.html" class="nav-link p-0 text-body-secondary">Tennis</a></li>
+            <li class="nav-item mb-2"><a href="swim.html" class="nav-link p-0 text-body-secondary">Swimming</a></li>
+            <li class="nav-item mb-2"><a href="volley.html" class="nav-link p-0 text-body-secondary">Volleyball</a></li>
+          </ul>
+        </div>
+        <div class="col-6 col-md-2 mb-3">
+          <h5>Section</h5>
+          <ul class="nav flex-column">
+            <li class="nav-item mb-2"><a href="index.html" class="nav-link p-0 text-body-secondary">Home</a></li>
+            <li class="nav-item mb-2"><a href="contact.html" class="nav-link p-0 text-body-secondary">Contact</a></li>
+            <li class="nav-item mb-2"><a href="about.html" class="nav-link p-0 text-body-secondary">About</a></li>
+            <li class="nav-item mb-2"><a href="sub.html" class="nav-link p-0 text-body-secondary">Subscription</a></li>
+          </ul>
+        </div>
+
+        <div class="col-md-6 mb-3">
+          <form class="mt-3">
+            <h5>Subscribe to our newsletter</h5>
+            <p>Monthly digest of what's new and exciting from us.</p>
+            <div class="d-flex flex-column flex-sm-row w-100 gap-2">
+              <label for="newsletter1" class="visually-hidden">Email address</label>
+              <input id="newsletter1" type="text" class="form-control" placeholder="Email address">
+              <button class="btn btn-primary" type="button">Subscribe</button>
+            </div>
+          </form>
+        </div>
+      </div>
+      <div class="col-md-2"></div>
+      <div class="d-flex flex-column flex-sm-row justify-content-between py-4 my-4 border-top">
+        <p>&copy; 2024 Trio Fuchsia. All rights reserved.</p>
+        <ul class="list-unstyled d-flex">
+          <li class="ms-3"><a class="link-body-emphasis" href="#"><i class="fa-brands fa-facebook fs-3"></i></a></li>
+          <li class="ms-3"><a class="link-body-emphasis" href="#"><i class="fa-brands fa-square-instagram fs-3"></i></a></li>
+          <li class="ms-3"><a class="link-body-emphasis" href="#"><i class="fa-brands fa-square-x-twitter fs-3"></i></a></li>
+        </ul>
+      </div>
+    </footer>
+  </div>
+</body>
+</html>
