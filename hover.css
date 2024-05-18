@@ -1,0 +1,28 @@
+nav li:hover{
+    background-image: linear-gradient(to right, #ffb347 0%, #ffcc33  51%, #ffb347  100%);
+    text-align: center;
+    text-transform: uppercase;
+    transition: 1.5s;
+    background-size: 200% auto;
+    border-radius: 10px;
+    display: block;
+}
+footer li:hover{
+    background-image: linear-gradient(to right, #ffb347 0%, #ffcc33  51%, #ffb347  100%);
+    text-align: center;
+    font-size: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px ;
+    transition: 0.5s;
+    background-size: 200% auto;
+    border-radius: 10px;
+    display: block;
+}
+.offcanvas-body li:hover{
+    background-image: linear-gradient(to right, #ffb347 0%, #ffcc33  51%, #ffb347  100%);
+    text-align: center;
+    transition: 0.5s;
+    background-size: 200% auto;
+    border-radius: 10px;
+    display: block;
+}
